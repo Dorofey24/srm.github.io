@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Стандарт ссылки 3.0</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .zona-1 {
+                background-color: rgb(200,200,200);
+                width: 280px ;
+                height: 520px ;
+            }
+            .zona-2 {
+                width: 240px;
+                height: 400px;
+                margin-top: 24px;
+                margin-left: 20px;
+                position: absolute;
+                border:0;
+                border-radius: 10px;
+                padding: none;
+                background-color: white;
+            }
+            .zona-3 {
+                width: 240px;
+                height: 40px;
+                margin-top: 444px;
+                margin-left: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+            }
+            .zona-4_ava { 
+                width: 80px;
+                height: 80px;
+                margin-top: -160px;
+                margin-left: -40px;
+                position: absolute;
+            }
+            .zona-5_flag {
+                width: 40px;
+                height: 40px;
+                margin-top: -180px;
+                margin-left: 60px;
+                position: absolute;
+            }
+            .zona-6_4-3 {
+                width: 160px;
+                height: 120px;
+                margin-top: -40px;
+                margin-left: 34px;
+                position: absolute;
+                animation-name: zona-6_4-3;
+                animation-duration: 20s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes zona-6_4-3 {
+                0% {background-image: url(https://i.ibb.co/Rg3QpCh/43-1.png);}
+                20% {background-image: url(https://i.ibb.co/Rg3QpCh/43-1.png);}
+
+                25% {background-image: url(https://i.ibb.co/ySMZp35/43-1-blue.png);}
+                45% {background-image: url(https://i.ibb.co/ySMZp35/43-1-blue.png);}
+
+                50% {background-image: url(https://i.ibb.co/N7j5VJ1/43-1-green.png);}
+                70% {background-image: url(https://i.ibb.co/N7j5VJ1/43-1-green.png);}
+
+                75% {background-image: url(https://i.ibb.co/r7dHgs8/43-1-red.png);}
+                95% {background-image: url(https://i.ibb.co/r7dHgs8/43-1-red.png);}
+
+                100% {background-image: url(https://i.ibb.co/Rg3QpCh/43-1.png);}
+            }
+            .zona-7_text {
+                width: 160px;
+                height: 80px;
+                margin-top: 100px;
+                margin-left: 34px;
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>        
+    </head>
+    <body>
+        <div class="zona-1">
+            <a href="https://ru.wikipedia.org/" target="_blank">
+                <p>
+                    <button type="button" class="zona-2">
+                        <img src="https://i.ibb.co/RpcBwZD/11-1.png" class="zona-4_ava">
+                        <img src="https://i.ibb.co/3pcF3W4/1f1ec-1f1e7.png" class="zona-5_flag">
+                        <div class="zona-6_4-3"></div>
+                        <div class="zona-7_text">
+                            <center>
+                                <h5>
+                                    Text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text.
+                                </h5>
+                            </center>
+                        </div>
+                    </button>
+                </p>
+            </a>
+            <div class="zona-3">
+                <h2>
+                    Movement name
+                </h2>
+            </div>
+        </div>
+    </body>
+</html>
